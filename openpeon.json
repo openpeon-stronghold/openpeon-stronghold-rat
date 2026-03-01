@@ -9,34 +9,46 @@
   "categories": {
     "session.start": {
       "sounds": [
-        { "file": "sounds/start_1.mp3", "label": "Greeting 1" },
-        { "file": "sounds/start_2.mp3", "label": "Greeting 2" }
+        { "file": "sounds/rt_add_player.wav", "label": "Gasping" }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        { "file": "sounds/rt_taunt_03.wav", "label": "Plans have been made" },
+        { "file": "sounds/rt_taunt_05.wav", "label": "Forces of De Puce" }
       ]
     },
     "task.complete": {
       "sounds": [
-        { "file": "sounds/complete_1.mp3", "label": "Done 1" },
-        { "file": "sounds/complete_2.mp3", "label": "Done 2" }
-      ]
-    },
-    "input.required": {
-      "sounds": [
-        { "file": "sounds/permission_1.mp3", "label": "Needs attention" }
+        { "file": "sounds/rt_vict_01.wav", "label": "Ratty wins again" },
+        { "file": "sounds/rt_vict_02.wav", "label": "Plans worked perfectly" },
+        { "file": "sounds/rt_vict_04.wav", "label": "Glorious army triumphs" }
       ]
     },
     "task.error": {
       "sounds": [
-        { "file": "sounds/error_1.mp3", "label": "Error" }
+        { "file": "sounds/rt_anger_01.wav", "label": "Troops didn't follow the plan" },
+        { "file": "sounds/rt_anger_03.wav", "label": "Surrounded by idiots" },
+        { "file": "sounds/rt_anger_04.wav", "label": "World has gone crazier" }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        { "file": "sounds/rt_plead_01.wav", "label": "Don't hurt me" },
+        { "file": "sounds/rt_plead_04.wav", "label": "No need to panic, Ratty" }
       ]
     },
     "resource.limit": {
       "sounds": [
-        { "file": "sounds/limit_1.mp3", "label": "Limit hit" }
+        { "file": "sounds/rt_anger_02.wav", "label": "Oh bother, lost again" },
+        { "file": "sounds/rt_plead_02.wav", "label": "It wasn't me" }
       ]
     },
     "user.spam": {
       "sounds": [
-        { "file": "sounds/spam_1.mp3", "label": "Too many prompts" }
+        { "file": "sounds/rt_taunt_01.wav", "label": "Impudent upstart" },
+        { "file": "sounds/rt_taunt_07.wav", "label": "No use grovelling now" },
+        { "file": "sounds/rt_kick_player.wav", "label": "Screaming" }
       ]
     }
   }
